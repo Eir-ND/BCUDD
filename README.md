@@ -1,10 +1,10 @@
 # PROYECTO 1: Algoritmo de Sistema de Costos.
 
 # Tabla de Contenidos
-- [Planteamiento](##Planteamiento)
-- [Requerimientos del proyecto](##Requerimientos del proyecto)
-- [Paso a paso de la solución](##Paso a paso de la solución)
-- [Solución completa](##Solución completa)
+- [Planteamiento](#planteamiento)
+- [Requerimientos del proyecto](#requerimientos-del-proyecto)
+- [Paso a paso de la solución](#paso-a-paso-de-la-solución)
+- [Solución completa](#solución-completa)
 
 
 ## Planteamiento
