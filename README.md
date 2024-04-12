@@ -203,12 +203,12 @@ Algoritmo ControlCosto
 	Escribir "--------------------------------------------------------"
 	Escribir "Costo final del producto con envío a ", destino, ":"
 	Escribir "--------------------------------------------------------"
-    Escribir "Precio original: $", datos[1]
-    Escribir "Descuento: $", datos[2]
-    Escribir "Impuestos (IVA %12): $", datos[3]
-    Escribir "Descuento por cantidad: $", datos[4]
-    Escribir "Costo de envío: $", datos[5]
-    Escribir "Total a pagar: $", datos[6]
+    	Escribir "Precio original: $", datos[1]
+    	Escribir "Descuento: $", datos[2]
+    	Escribir "Impuestos (IVA %12): $", datos[3]
+    	Escribir "Descuento por cantidad: $", datos[4]
+    	Escribir "Costo de envío: $", datos[5]
+    	Escribir "Total a pagar: $", datos[6]
 	Escribir "--------------------------------------------------------"
 
 FinAlgoritmo
