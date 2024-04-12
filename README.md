@@ -31,9 +31,9 @@ Al final, el algoritmo deberá mostrar el costo final del producto ($207.52) y d
 
 1. En primer lugar se definen los datos a utilizar, en este caso se utilizará un array para organizar los datos finales solicitados, por lo que se define y se dimensiona.
 
-´´´
+```
 Definir datos como real
 Dimension datos[6]
-´´´
+```
 
 2. Definir constantes con valores 
