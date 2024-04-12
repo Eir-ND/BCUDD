@@ -1,6 +1,6 @@
 # PROYECTO 1: Algoritmo de Sistema de Costos.
 
-##Planteamiento
+## Planteamiento
 
 Este proyecto se resuelve mediante la creación de un algoritmo que permita realizar un control de costos para una tienda, en el cual permita obtener valores de descuentos realizados en función de condiciones específicas a partir de un precio base del producto.
 
