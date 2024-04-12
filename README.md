@@ -29,7 +29,7 @@ Al final, el algoritmo deberá mostrar el costo final del producto ($207.52) y d
 
 ## Paso a paso de la solución
 
-1. En primer lugar se definen las variables y constantes a utilizar, en este caso se utilizará un array unidimensional para organizar los datos finales solicitados y las constantes con valores previamente indicados en el enunciado.
+1. En primer lugar se definen las variables y constantes a utilizar, en este caso se utilizará un `array unidimensional` para organizar los datos finales solicitados y las constantes con valores previamente indicados en el enunciado.
 
 ```scss
 // Definimos la variable
@@ -143,7 +143,7 @@ Escribir "--------------------------------------------------------"
 
 ## Solución completa
 
-Se presenta el pseudocódigo en su totalidad para ser utilizado en PSEINT.
+Se presenta el pseudocódigo en su totalidad para ser utilizado en `PSEINT`.
 
 ```scss
 Algoritmo ControlCosto
