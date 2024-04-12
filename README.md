@@ -158,7 +158,6 @@ Algoritmo ControlCosto
 	Escribir "Ingrese el precio original del producto:"
 	Leer datos[1]
 	
-	// Valor descuento por cupón
 	Repetir
 		Escribir "¿Tiene un cupón de descuento? (S/N):"
 		Leer respuestaDescuento
@@ -172,14 +171,11 @@ Algoritmo ControlCosto
 		datos[2] <- 0
 	FinSi
     
-	// Valor con descuento aplicado
 	descAplicado <- datos[1] - datos[2]
 	
-	// Calcular valor con IVA %12
 	datos[3] <- descAplicado * iva
 	valorConIVA <- descAplicado + datos[3]
 	
-	//Descuento por cantidad (5%)
 	Escribir "Ingrese la cantidad de productos a comprar:"
     Leer cantidad
     Si cantidad > 1 Entonces
@@ -189,17 +185,14 @@ Algoritmo ControlCosto
         descPorCantidad <- valorConIVA
     Fin Si
 	
-	//Costo envío ($10 costo fijo y $2 por kilo de peso)
 	Escribir "Ingrese el destino del envío:"
     Leer destino
     Escribir "Ingrese el peso total del paquete (en kg):"
     Leer peso
     datos[5] <- costoFijoEnvio + (peso * 2) 
 	
-	//Costo final producto
 	datos[6] <- (descPorCantidad * cantidad) + datos[5]
 	
-	//Desglose costo final
 	Escribir "--------------------------------------------------------"
 	Escribir "Costo final del producto con envío a ", destino, ":"
 	Escribir "--------------------------------------------------------"
