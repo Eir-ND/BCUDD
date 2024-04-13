@@ -71,12 +71,12 @@ Hasta Que respuestaDescuento = "S" | respuestaDescuento = "N"
 
 // Si la respuesta es "S" solicitamos al usuario que ingrese el % de descuento
 si respuestaDescuento == "S" Entonces
-  Escribir "Ingrese el porcentaje de descuento:"
-  Leer porcDesc
+	Escribir "Ingrese el porcentaje de descuento:"
+	Leer porcDesc
 // Calculamos el valor del descuento y lo almacenamos en la variable 2 del array
-  datos[2] <- (datos[1] * porcDesc) / 100
+	datos[2] <- (datos[1] * porcDesc) / 100
 SiNo
-  datos[2] <- 0
+	datos[2] <- 0
 FinSi
 ```
 
@@ -101,12 +101,12 @@ Leer cantidad
 Si cantidad > 1 Entonces
 
 // Calculamos el valor del descuento y lo almacenamos en la variable 4 del array
-  datos[4] <- valorConIVA * descCant
+	datos[4] <- valorConIVA * descCant
 
 // Con la variable anterior, aplicamos el descuento y almacenamos el resultado en una variable
-  descPorCantidad <- valorConIVA - datos[4]
+	descPorCantidad <- valorConIVA - datos[4]
 Sino
-  descPorCantidad <- valorConIVA
+	descPorCantidad <- valorConIVA
 Fin Si
 ```
 
@@ -154,7 +154,7 @@ Se presenta el pseudocódigo en su totalidad para ser utilizado en `PSEINT`.
 
 ```scss
 Algoritmo ControlCosto
-	
+
 	Definir datos como real
 	Dimension datos[6]
 
@@ -172,7 +172,7 @@ Algoritmo ControlCosto
 	
 	si respuestaDescuento == "S" Entonces
 		Escribir "Ingrese el porcentaje de descuento:"
-        Leer porcDesc
+		Leer porcDesc
 		datos[2] <- (datos[1] * porcDesc) / 100
 	SiNo
 		datos[2] <- 0
@@ -186,12 +186,12 @@ Algoritmo ControlCosto
 	Escribir "Ingrese la cantidad de productos a comprar:"
     Leer cantidad
     Si cantidad > 1 Entonces
-        datos[4] <- valorConIVA * descCant
+		datos[4] <- valorConIVA * descCant
 		descPorCantidad <- valorConIVA - datos[4]
     Sino
         descPorCantidad <- valorConIVA
     Fin Si
-	
+
 	Escribir "Ingrese el destino del envío:"
     Leer destino
     Escribir "Ingrese el peso total del paquete (en kg):"
@@ -203,12 +203,12 @@ Algoritmo ControlCosto
 	Escribir "--------------------------------------------------------"
 	Escribir "Costo final del producto con envío a ", destino, ":"
 	Escribir "--------------------------------------------------------"
-    	Escribir "Precio original: $", datos[1]
-    	Escribir "Descuento: $", datos[2]
-    	Escribir "Impuestos (IVA %12): $", datos[3]
-    	Escribir "Descuento por cantidad: $", datos[4]
-    	Escribir "Costo de envío: $", datos[5]
-    	Escribir "Total a pagar: $", datos[6]
+	Escribir "Precio original: $", datos[1]
+	Escribir "Descuento: $", datos[2]
+	Escribir "Impuestos (IVA %12): $", datos[3]
+	Escribir "Descuento por cantidad: $", datos[4]
+	Escribir "Costo de envío: $", datos[5]
+	Escribir "Total a pagar: $", datos[6]
 	Escribir "--------------------------------------------------------"
 
 FinAlgoritmo
