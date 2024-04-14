@@ -9,9 +9,9 @@
 
 ## Planteamiento
 
-Este proyecto se resuelve mediante la creación de un algoritmo que permita realizar un control de costos para una tienda, en el cual permita obtener valores de descuentos realizados en función de condiciones específicas a partir de un precio base del producto.
+Este proyecto se resuelve mediante la creación de un algoritmo para un control de costos para una tienda, en el cual permita obtener `valores de descuentos` realizados en función de condiciones específicas a partir de un precio base del producto.
 
-A continuación se detallará el paso a paso del algoritmo para, posteriormente, entregar la totalidad del código y así poder simular en PSEINT.
+A continuación se detallará el paso a paso del algoritmo para, posteriormente, entregar la totalidad del código y así poder simular en `PSEINT`.
 
 ## Requerimientos del proyecto
 
